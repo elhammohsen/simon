@@ -1,0 +1,426 @@
+:root{
+    --main-color: #20c997;
+    --secondary-color: white;
+}
+
+
+.navbar-brand{
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+.navbar-brand:hover{
+    color: var(--secondary-color);
+}
+.nav-link{
+    color: var(--secondary-color);
+}
+.nav-link:hover{
+    color: var(--main-color);
+    transition: 0.5s;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/intro-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-content h1::after{
+    content: "";
+    width: 50%;
+    animation-name: home-content;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes home-content {
+    0% {content: " S|";}
+    1% {content: " Si|";}
+    2% {content: " Sim|";}
+    3% {content: " Simo|";}
+    4% {content: " Simon|";}
+    5% {content: " Simone|";}
+    6% {content: " Simone |";}
+    7% {content: " Simone O|";}
+    8% {content: " Simone Ol|";}
+    9% {content: " Simone Oli|";}
+    10% {content: " Simone Oliv|";}
+    11% {content: " Simone Olivi|";}
+    12% {content: " Simone Olivia|";}
+    13% {content: " Simone Olivi|";}
+    14% {content: " Simone Oliv|";}
+    15% {content: " Simone Oli|";}
+    16% {content: " Simone Ol|";}
+    17% {content: " Simone O|";}
+    18% {content: " Simone |";}
+    19% {content: " Simone|";}
+    20% {content: " Simon|";}
+    21% {content: " Simo|";}
+    22% {content: " Sim|";}
+    23% {content: " Si|";}
+    24% {content: " S|";}
+    25% {content: " |";}
+
+    
+}
+.header-content .btn{
+    background-color: transparent;
+    border-color: var(--main-color);
+    color:  var(--main-color);
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    border-width: 2px;
+}
+.header-content .btn:hover{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+
+
+.scroll-down-arrow {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+#back-to-top {
+  position: fixed;
+  z-index: 1030;
+  bottom: 8px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+}
+
+
+
+
+.title h2{
+    font-size: calc(1.95rem + 8.4vw);
+    font-weight: 600;
+    color: #dee3e4 !important;
+    opacity: 0.4;
+}
+.title h3{
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #212529 !important;
+    border-bottom: 2px solid var(--main-color);
+    border-width: 3px;
+}
+.list-style-2 > li {
+    list-style-type: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.text-primary{
+    color: var(--main-color) !important;
+}
+a, a:focus {
+    color: var(--main-color);
+    text-decoration: none;
+}
+.list-style-2 .btn{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    border-width: 2px;
+}
+.list-style-2 .btn:hover{
+
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
+    transition: 0.5;
+}
+.text-12 {
+    font-size: calc(1.425rem + 2.1vw) !important;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+.featured-box1{
+    border-right: 1.5px solid #e0dede;
+    height: 100%;
+}
+.featured-box.style-3 {
+    padding-left: 90px;
+    padding-top: 0px;
+}
+.featured-box {
+    box-sizing: border-box;
+    position: relative;
+}
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+.featured-box-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    justify-content: center !important;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.bg-primary {
+    background-color: var(--main-color) !important;
+}
+.progress-bar{
+    background-color: var(--main-color) !important;
+}
+.btn-primary{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.nav-tabs .nav-item-p .nav-link-p {
+    border: 0;
+    background: transparent;
+    position: relative;
+    border-radius: 0;
+    padding: 0.6rem 1rem;
+    color: #7b8084;
+}
+.nav-tabs .nav-item-p .nav-link-all{
+    color: var(--main-color);
+    border-bottom: var(--main-color) solid 2px;
+}
+.nav-tabs .nav-item-p .nav-link-p:hover {
+    color: var(--main-color);
+}
+
+.section{
+    position: relative;
+    padding: 4.5rem 0;
+    overflow: hidden;
+}
+
+a, a:focus {
+    color: #20c997;
+    text-decoration: none; 
+    transition: all 0.2s ease;
+}
+.btn{
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    border-width: 2px;  
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
+    transition: 0.5;
+}
+
+#footer .nav .nav-item .nav-link{
+    color: #252b33;
+    transition: all 0.2s ease;
+}
+#footer .nav .nav-item .nav-link:hover{
+    color: var(--main-color);
+}
+
+
+/***** Portfolio .. i used pure css here with out bootstrap because i got many problems in it.. *****/
+.portfolio {
+    max-width: 1000px;
+    margin: auto;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 10px;
+    margin-top: 40px;
+  }
+  .portfolio {
+    max-width: 700px;
+  }
+  .portfolio {
+    column-count: 2;
+  }
+  .text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white__color);
+    width: 100%;
+    height: 100%;
+  }
+  .text_container > h3 {
+    line-height: 3;
+  }
+  .image {
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .gallery_image {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+  }
+  .image:hover .gallery_image {
+    transform: scale(1.1);
+    filter: blur(2px);
+  }
+  
+  .image:hover > .images_dec {
+    display: block;
+  }
+  
+  .images_dec {
+    background-color: rgba(0, 0, 0, 0.55);
+    transition: 0.5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+  }
+  .images_dec > div {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+  }
+  
+  .image:hover .images_dec {
+    opacity: 1;
+  }
+/*** end of portfolio **/
+
+
+/** TESTIMONIAL */
+  #testimonial {
+    padding: 72px 0;
+  }
+  
+  .testimonial-c {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .TC-C {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 48px;
+    max-width: calc(90% / 2);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .C-I {
+    display: flex;
+    color:var(--titleOL__color);
+    margin-bottom: 24px;
+  }
+  
+  .CI-IMG {
+    border-radius: 50%;
+  }
+  
+  .CI-DESC {
+    margin-left: 16px;
+  }
+  
+  .TC-T {
+    color: var(--number__color);
+  }
+  
+  .testCard__desc {
+    line-height: 1.8;
+    margin-bottom: 24px;
+    color: var(--titleOL__color);
+  }
+  
+  .test__rate {
+    color: var(--rate__color);
+    font-size: 14px;
+  }
+  
+  .bullet__container--web,
+  .bullet__container--mobile {
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: var(--main-color);
+  }
+  
+  /** End of testimonial  **/
+
+
+
+
+
+
+
+
+
+
+
+
+/** Media screen section for portfolio **/
+
+
+  @media screen and (max-width: 991.98px) {
+    .portfolio {
+      max-width: 700px;
+    }
+  
+    .portfolio {
+      column-count: 2;
+    }
+  }
+  
+  @media screen and (max-width: 767.98px) {
+    .portfolio {
+      column-gap: 15px;
+      max-width: 500px;
+    }
+  }
+  
+  @media screen and (max-width: 575.98px) {
+    .portfolio {
+      column-count: 1;
+    }
+    .image {
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .portfolio {
+      max-width: 350px;
+    }
+  }
+  
